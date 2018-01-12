@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    background: black;
+    color: lightgreen;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li::before {
+    content: "> "
+}
+
+a {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+a:hover {
+    color: green;
+}
+
+#page {
+    padding-top: 16px;
+    min-height: 100%;
+    margin-bottom: -48px;
+}
+
+#cursor {
+    animation: cursor .5s infinite alternate;
+}
+
+@keyframes cursor {
+    from {color: black;}
+    to {color: lightgreen;}
+}
+
+#empty-footer  {
+    height: 48px;
+}
+
+footer {
+    width: 100%;
+    height: 48px;
+}
