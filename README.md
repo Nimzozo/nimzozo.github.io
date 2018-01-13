@@ -1,1 +1,3 @@
-# nimzozo.github.io
+# Personal pages
+
+## Follow the :rabbit2: and :pill: enter [the matrix](https://nimzozo.github.io)...
